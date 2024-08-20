@@ -102,6 +102,7 @@ body {
   font-weight: bold;
   color: rgba(0, 0, 0, 0.8);
   padding: 0px;
+  text-decoration: overline;
 }
 
 .adventure-title,
@@ -491,7 +492,7 @@ footer {
 
 @media (max-width: 1024px) {
   .brand {
-    padding-left: 40px;
+    padding-left: 20px;
   }
 
   .grid-tour {
@@ -548,6 +549,7 @@ footer {
   .deals-title,
   .maps-title {
     text-align: center;
+    text-decoration: none;
   }
 
   .adventure-subtitle,
@@ -577,5 +579,9 @@ footer {
 
   .italy:nth-child(1) {
     grid-column: span 1;
+  }
+
+  footer {
+  padding: 20px;
   }
 }
